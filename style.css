@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start Header  */
+header {
+    background-image: url('images/img12.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 2%;
+}
+
+.navbar .login {
+    font-size: 20px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar .login:hover {
+    background-color: white;
+    border-radius: 10px;
+    width: 30px;
+    height: 35px;
+    color: black;
+}
+
+.navbar li {
+    padding-left: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar .fa-bars {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 6px;
+    background-color: transparent;
+}
+
+.main-content {
+    margin: 8% 20%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.main-content h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.main-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.main-content p {
+    color: rgba(255, 255, 255, 0.877);
+    margin-bottom: 60px;
+}
+
+.main-content .button1 {
+    background-color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.main-content .button2 {
+    border: 1px solid white;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 400px;
+    }
+
+    .main-content h1 {
+        font-size: 20px;
+    }
+
+    .main-content h2 {
+        font-size: 20px;
+    }
+
+    .main-content p {
+        font-size: 10px;
+    }
+
+    .main-content .button1 {
+        font-size: 10px;
+    }
+
+    .main-content .button2 {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    header {
+        height: 550px;
+    }
+
+    .main-content h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 550px;
+    }
+
+    .main-content h1 {
+        font-size: 50px;
+    }
+
+    header .button1 i {
+        color: red;
+    }
+}
+
+
+/*  end Header  */
+
+/* stert sec1 */
+.sec1 {
+    padding: 5% 0%;
+    align-items: center;
+    text-align: center;
+}
+
+.sec1 .row div {
+    padding-left: 30px;
+}
+
+.sec1 img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.sec1 h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.sec1 p {
+    color: rgb(110, 109, 109);
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/* end sec1 */
+
+/* stert sec2 */
+.sec2 {
+    text-align: center;
+    background-color: rgb(255, 242, 249);
+    padding: 5% 0%;
+    position: relative;
+}
+
+.sec2 .title-p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 10%;
+}
+
+.sec2 .title-h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.sec2 img {
+    width: 250px;
+    height: 300px;
+}
+
+.sec2 .row h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgba(112, 82, 5, 0.521);
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.sec2 .row p {
+    font-family: 'Playfair Display', serif;
+    color: rgba(112, 82, 5, 0.521);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec2 .title-p {
+        font-size: 20px;
+    }
+
+    .sec2 .title-h3 {
+        font-size: 20px;
+    }
+
+    .sec2 .sale1 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 31%;
+        left: 72.2%;
+    }
+
+    .sec2 .sale2 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 53.6%;
+        left: 72.5%;
+    }
+}
+
+@media (min-width: 576px) {
+    .sec2 .sale1 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 29.7%;
+        left: 64.7%;
+    }
+
+    .sec2 .sale2 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 52.6%;
+        left: 65.1%;
+    }
+}
+
+@media (min-width: 768px) {
+    .sec2 .sale1 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 13.7%;
+        left: 80.3%;
+    }
+
+    .sec2 .sale2 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 54.7%;
+        left: 38.2%;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec2 .sale1 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 25.3%;
+        left: 44.3%;
+    }
+
+    .sec2 .sale2 {
+        background-color: black;
+        padding: 1%;
+        color: white;
+        position: absolute;
+        top: 25.3%;
+        left: 65.7%;
+    }
+}
+
+/* end sec2 */
+
+/* start sec3 */
+.sec3 {
+    background-image: url('images/img12.jpg');
+    background-position: top;
+    background-size: cover;
+    background-color: rgb(247, 200, 225);
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec3 {
+        height: 150px;
+    }
+
+    .sec3 h1 {
+        margin-top: 50px;
+        font-size: 15px
+    }
+
+    .sec3 p {
+        font-size: 7px
+    }
+}
+
+@media (min-width: 576px) {
+    .sec3 {
+        height: 150px;
+    }
+
+    .sec3 h1 {
+        margin-top: 60px;
+        font-size: 20px
+    }
+
+    .sec3 p {
+        font-size: 10px
+    }
+
+}
+
+@media (min-width: 768px) {
+    .sec3 {
+        height: 160px;
+    }
+
+    .sec3 h1 {
+        margin-top: 58px;
+        font-size: 27px
+    }
+
+    .sec3 p {
+        font-size: 15px
+    }
+
+}
+
+@media (min-width: 992px) {
+    .sec3 {
+        height: 200px;
+    }
+
+    .sec3 h1 {
+        margin-top: 65px;
+        font-size: 30px
+    }
+
+    .sec3 p {
+        font-size: 18px
+    }
+
+    .sec3 h1 {
+        margin-top: 65px;
+        font-size: 30px
+    }
+
+    .sec3 p {
+        font-size: 18px
+    }
+
+}
+
+/* end sec3 */
+
+/* start sec4 */
+.sec4 {
+    padding: 8% 0%;
+    position: relative;
+}
+
+.sec4 h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.sec4 h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 43px;
+}
+
+.sec4 p {
+    color: rgba(43, 40, 40, 0.719);
+    padding: 3% 0%;
+    font-size: 20px;
+}
+
+.sec4 a {
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    padding: 15px 35px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: small;
+    font-weight: bolder;
+}
+
+.sec4 a:hover {
+    background-color: black;
+    color: white;
+}
+
+.sec4 .flower {
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec4 img {
+        width: 100%;
+        height: 230px;
+        padding-top: 15px;
+    }
+
+    .sec4 h5 {
+        font-size: 20px;
+    }
+
+    .sec4 h1 {
+        font-size: 30px;
+    }
+
+    .sec4 p {
+        font-size: 12px;
+        padding: 1% 0%;
+    }
+
+    .sec4 a {
+        padding: 10px 30px;
+    }
+
+    .sec4 .flower {
+        width: 200px;
+        height: 200px;
+        top: 6%;
+        left: 55%;
+    }
+}
+
+@media (min-width: 576px) {
+    .sec4 img {
+        width: 100%;
+        height: 230px;
+        padding-top: 15px;
+    }
+
+    .sec4 h5 {
+        font-size: 20px;
+    }
+
+    .sec4 h1 {
+        font-size: 30px;
+    }
+
+    .sec4 p {
+        font-size: 12px;
+        padding: 1% 0%;
+    }
+
+    .sec4 a {
+        padding: 10px 30px;
+    }
+
+    .sec4 .flower {
+        width: 200px;
+        height: 200px;
+        top: 6%;
+        left: 55%;
+    }
+}
+
+@media (min-width: 768px) {
+    .sec4 img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .sec4 h5 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .sec4 h1 {
+        font-size: 25px;
+    }
+
+    .sec4 p {
+        font-size: 10px;
+        padding: 1% 0%;
+    }
+
+    .sec4 a {
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+
+    .sec4 .flower {
+        width: 150px;
+        height: 200px;
+        position: absolute;
+        top: 15%;
+        left: 33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec4 img {
+        width: 460px;
+        height: 300px;
+    }
+
+    .sec4 h5 {
+        font-size: 25px;
+    }
+
+    .sec4 h1 {
+        font-size: 43px;
+    }
+
+    .sec4 p {
+        padding: 2% 0%;
+        font-size: 17px;
+    }
+
+    .sec4 a {
+        padding: 15px 35px;
+        font-size: 15px;
+    }
+
+    .sec4 .flower {
+        width: 200px;
+        height: 250px;
+        top: 15%;
+        left: 35%;
+    }
+}
+
+/* end sec4 */
+
+/* start sec5 */
+.sec5 {
+    background-image: url('images/img15.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sec5 .slider {
+    color: white;
+    width: 60%;
+}
+
+.sec5 .slider h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.sec5 .slider h1,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+
+.sec5 .slider p {
+    color: rgba(255, 255, 255, 0.801);
+    padding: 2% 0%;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec5 .slider {
+        width: 100%;
+    }
+
+    .sec5 .slider h2 {
+        font-size: 30px;
+    }
+
+    .sec5 .slider h1 {
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    .sec5 .slider p {
+        font-size: 15px;
+    }
+}
+
+/* end sec5 */
+
+/* start sec6 */
+.sec6 {
+    background-image: url('images/img16.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 4% 0%;
+    text-align: center;
+}
+
+.sec6 .title-h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(112, 82, 5);
+}
+
+.sec6 .title-p {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: rgb(112, 82, 5);
+    padding-bottom: 30px;
+}
+
+.sec6 img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.sec6 h6 {
+    font-family: 'Playfair Display', serif;
+    color: rgba(112, 82, 5, 0.801);
+    margin-top: 30px;
+}
+
+.sec6 p {
+    color: rgba(112, 82, 5, 0.644);
+    margin: 8px;
+}
+
+.sec6 i {
+    padding-right: 25px;
+    font-size: 12px;
+}
+
+.sec6 .fa-linkedin-in {
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec6 {
+        height: 265vh;
+    }
+}
+
+@media (min-width: 576px) {
+    .sec6 {
+        height: 265vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .sec6 {
+        height: 150vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec6 {
+        height: 95vh;
+    }
+}
+
+/* end sec6 */
+
+/* start sec7 */
+.sec7 {
+    display: flex;
+}
+
+.sec7 .photo {
+    width: 440px;
+    margin: 0%;
+}
+
+.sec7 .photo img {
+    width: 100%;
+}
+
+/* end sec7 */
+
+/* start sec8 */
+.sec8 {
+    background-color: rgb(248, 214, 232);
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sec8 p {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.sec8 .text {
+    width: 500px;
+    height: 50px;
+    border: none;
+    padding-left: 1%;
+    margin: 0%;
+}
+
+.sec8 .button {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sec8 p {
+        font-size: 18px;
+    }
+
+    .sec8 .text {
+        width: 300px;
+    }
+
+    .sec8 .button {
+        padding: 2.5%;
+    }
+}
+
+@media (min-width: 576px) {
+    .sec8 p {
+        font-size: 18px;
+    }
+
+    .sec8 .text {
+        width: 300px;
+    }
+
+    .sec8 .button {
+        padding: 1.83%;
+    }
+}
+
+@media (min-width: 768px) {
+    .sec8 p {
+        font-size: 18px;
+    }
+
+    .sec8 .text {
+        width: 300px;
+    }
+
+    .sec8 .button {
+        padding: 1.57%;
+    }
+}
+
+@media (min-width: 992px) {
+    .sec8 p {
+        font-size: 22px;
+    }
+
+    .sec8 .text {
+        width: 500px;
+    }
+
+    .sec8 .button {
+        padding: 1%;
+    }
+}
+
+/* end sec8 */
+
+/* start footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+footer h5 {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+footer p {
+    color: grey;
+}
+
+footer i {
+    color: grey;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer .photo-footer {
+    margin-bottom: 5px;
+}
+
+footer .photo-footer img {
+    width: 70px;
+}
+
+footer .down-footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: grey;
+    text-align: center;
+}
+
+footer .down-footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* end footer */
+
+/* scroll top botton */
+.gotopbtn {
+    position: fixed;
+    z-index: 88;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    right: 5%;
+    bottom: 5%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
